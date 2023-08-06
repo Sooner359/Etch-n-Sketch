@@ -1,0 +1,31 @@
+body{
+    background-image: url(./paper.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    border: solid;
+}
+
+.grid{
+    background-color: white;
+    
+    
+}
+
+.hover {
+    background-color: black;
+}
+
+.red {
+    background-color: red;
+}
