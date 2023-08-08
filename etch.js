@@ -42,6 +42,6 @@ function deleteGrid () {
 
 
 const gridSize = document.querySelector('#grid-size')
-gridSize.addEventListener('click', function(){deleteGrid(), createGrid(prompt("Choose", 16))})
+gridSize.addEventListener('click', function(){deleteGrid(), createGrid(prompt("Choose a grid size:", 16))})
 
 
